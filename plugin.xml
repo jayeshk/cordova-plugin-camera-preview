@@ -50,6 +50,18 @@
       </feature>
     </config-file>
 
+    <config-file target="*-Info.plist" parent="NSPhotoLibraryUsageDescription">
+        <string>Photo library access required.</string>
+    </config-file>
+
+    <config-file target="*-Info.plist" parent="NSMicrophoneUsageDescription">
+        <string>Microphone access required.</string>
+    </config-file>
+
+    <config-file target="*-Info.plist" parent="NSCameraUsageDescription">
+        <string>Camera access required.</string>
+    </config-file>
+
     <header-file src="src/ios/CameraPreview.h" />
     <source-file src="src/ios/CameraPreview.m" />
 
